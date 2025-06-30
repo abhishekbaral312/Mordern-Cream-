@@ -6,7 +6,19 @@ window.addEventListener("load", function () {
       setTimeout(() => loader.remove(), 500); // optional fade-out
     }
   });
+window.addEventListener("load", removeLoader);
 
+  // Optional safety fallback
+  setTimeout(removeLoader, 7000); // max wait of 7 seconds
+
+  function removeLoader() {
+    const loader = document.getElementById("preloader");
+    if (loader) {
+      loader.style.opacity = "0";
+      loader.style.pointerEvents = "none";
+      setTimeout(() => loader.remove(), 500);
+    }
+  }
 window.addEventListener('DOMContentLoaded', () => {
 
 
