@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Dark Spot Corrector 3fl.oz",
+      "price": "$10",
+      "image": "./images/prod-1.png",
+      "description": "Fade the appearance of dark spots, acne marks, and uneven skin tone with our advanced Dark Spot Corrector Cream. Powered by a blend of skin-brightening botanicals and dermatologist-approved actives, this gentle yet effective formula targets pigmentation at the source. With consistent use, it helps even out complexion, improves skin clarity, and restores natural glow—without harsh irritation.",
+      "ingredients":"Niacinamide, vitamin C, kojic acid, alpha arbutin, licorice extract, glycolic acid, lactic acid, salicylic acid, retinol, azelaic acid, hyaluronic acid, green tea extract, resveratrol, mulberry extract, aloe vera, and peptides."
+    },
+    {
+      "id": 2,
+      "name": "Dark Spot Corrector 2fl.oz",
+      "price": "$12",
+      "image": "./images/prod-2.png",
+      "description": "Fade the appearance of dark spots, acne marks, and uneven skin tone with our advanced Dark Spot Corrector Cream. Powered by a blend of skin-brightening botanicals and dermatologist-approved actives, this gentle yet effective formula targets pigmentation at the source. With consistent use, it helps even out complexion, improves skin clarity, and restores natural glow—without harsh irritation.",
+      "ingredients":"Niacinamide, vitamin C, kojic acid, alpha arbutin, licorice extract, glycolic acid, lactic acid, salicylic acid, retinol, azelaic acid, hyaluronic acid, green tea extract, resveratrol, mulberry extract, aloe vera, and peptides."
+    },
+    {
+      "id": 3,
+      "name": "Under Eye Night Cream 2fl.oz",
+      "price": "$14",
+      "image": "./images/prod-3.png",
+      "description": "Wake up to brighter, refreshed eyes with our nourishing Under Eye Night Cream. Specially formulated to target dark circles, puffiness, and fine lines, this gentle yet powerful cream works overnight to hydrate and rejuvenate the delicate skin around your eyes. Enriched with soothing ingredients and antioxidants, it supports skin repair and promotes a youthful, well-rested appearance.",
+      "ingredients":"Hyaluronic Acid, Retinol, Vitamin C, Caffeine, Peptides, Niacinamide, Aloe Vera Extract, Chamomile Extract, Green Tea Extract, Shea Butter, Squalane."
+    },
+    {
+      "id": 4,
+      "name": "Anti Aging Cream 2fl.oz",
+      "price": "$16",
+      "image": "./images/prod-4.png",
+      "description": "Rediscover youthful, radiant skin with our advanced Anti-Aging Cream. Formulated with powerful ingredients like retinol, peptides, and hyaluronic acid, it works to reduce the appearance of fine lines, wrinkles, and age spots. This rich, nourishing formula deeply hydrates the skin while improving firmness, elasticity, and texture. Suitable for all skin types, it supports collagen production and promotes a smoother, more youthful complexion with regular use.",
+      "ingredients":"Retinol, Hyaluronic Acid, Vitamin C, Peptides, Niacinamide, Collagen, Coenzyme Q10, Jojoba Oil, Shea Butter, Green Tea Extract, Licorice Extract, Ceramides, Rosehip Oil, Bakuchiol."
+    },
+    {
+      "id": 5,
+      "name": "Multipurpose Cream 1fl.oz",
+      "price": "$18",
+      "image": "./images/prod-5.png",
+      "description": "A versatile skincare essential, our Multipurpose Cream is designed to hydrate, protect, and soothe your skin from head to toe. Enriched with nourishing ingredients, it helps relieve dryness, calm irritation, and improve skin texture. Suitable for all skin types, this all-in-one formula can be used on the face, hands, body, and even rough patches, making it a must-have for everyday skincare.",
+      "ingredients":"Aloe Vera Extract, Glycerin, Shea Butter, Vitamin E, Coconut Oil, Jojoba Oil, Beeswax, Almond Oil, Calendula Extract, Chamomile Extract, Olive Oil, Panthenol (Pro-Vitamin B5), Niacinamide, Allantoin, Zinc Oxide."
+    },
+    {
+      "id": 6,
+      "name": "Under Eye Night Cream 3fl.0z",
+      "price": "$20",
+      "image": "./images/prod-6.png",
+      "description": "Wake up to brighter, refreshed eyes with our nourishing Under Eye Night Cream. Specially formulated to target dark circles, puffiness, and fine lines, this gentle yet powerful cream works overnight to hydrate and rejuvenate the delicate skin around your eyes. Enriched with soothing ingredients and antioxidants, it supports skin repair and promotes a youthful, well-rested appearance.",
+      "ingredients":"Hyaluronic Acid, Retinol, Vitamin C, Caffeine, Peptides, Niacinamide, Aloe Vera Extract, Chamomile Extract, Green Tea Extract, Shea Butter, Squalane."
+    }
+  ]

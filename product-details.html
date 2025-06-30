@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mordern Cream</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light cust-nav navbar-scroll">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/logo.png" alt="" width="80">
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+  <section class="other-ban">
+    <img src="./images/ban-leaves.png" class="other-ban-leaves">
+    <div class="container">
+        <h1>Product Details</h1>
+    </div>
+  </section>
+  <section class="prod-main">
+  <section class="prod-sec-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+      
+              <div class="prod-img">
+                <img src="" class="prod-1" id="prod-img">            
+                
+              </div>
+      
+      
+            </div>
+            <div class="col-md-6 prod-details">
+              <h1 id="prod-name"></h1>
+              <h2 id="prod-price"></h2>
+              <p id="prod-desc"></p>
+              <div class="prod-quantity">
+                <button id="quan-minus">-</button>
+                <span id="quan-text"></span>
+                <button id="quan-plus">+</button>
+              </div>
+              <a href="cart.html" id="add-to-cart"><button class="prod-btn">Add To Cart</button></a>
+            </div>
+          </div>
+    </div>
+    <img src="./images/extra-leaf-3.png" class="extra-leaf3 d-none d-md-block">
+  </section>
+  <section class="prod-sec-desc">
+    <div class="container">
+        <div class="desc-btn">
+          <button class="active" id="descBtn1">Ingredients</button>
+          <button  id="descBtn2">Description</button>
+        </div>
+        <div class="desc-area">
+          <p id="descCont"></p>
+        </div>
+    </div>
+  </section>
+  </section>
+  <footer class="footer">
+    <div class="container">
+    <div class="d-flex align-items-center">
+      <hr>
+      <img src="./images/logo.png" class="footer-logo">
+      <hr>
+    </div>
+    <div class="row footer-details">
+      <div class="col-md-4">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><img src="./images/right-arrow.svg">&nbsp;<a href="index.html">Home</a></li>
+          <li><img src="./images/right-arrow.svg">&nbsp;<a href="shop.html">Shop</a></li>
+          <li><img src="./images/right-arrow.svg">&nbsp;<a href="blogs.html">Blogs</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Other Links</h3>
+        <ul>
+          <li><img src="./images/right-arrow.svg">&nbsp;<a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><img src="./images/right-arrow.svg">&nbsp;<a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>We accept</h3>
+        <img src="./images/cards.png" >
+      </div>
+    </div>
+    <div class="footer-FDA">
+      <h3>FDA Disclaimer</h3>
+      <p>All trademarks and copyrights are the property of their respective owners and are not affiliated with nor do they endorse Mordern Cream. These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease. Individual results will vary. By using this site you agree to follow the Privacy Policy and all Terms & Conditions printed on this site. Void Where Prohibited By Law.</p>
+    </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container d-flex align-content-center">
+        <img src="./images/copy.svg">&nbsp;
+        <p> Mordern Cream 2025 | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/products.js"></script>
+  <script src="./js/func.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

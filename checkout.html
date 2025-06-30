@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mordern Cream</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light cust-nav navbar-scroll">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/logo.png" alt="" width="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+  <section class="other-ban">
+    <img src="./images/ban-leaves.png" class="other-ban-leaves">
+    <div class="container">
+      <h1>Checkout</h1>
+    </div>
+  </section>
+  <section class="checkout-main">
+    <div class="container">
+      <form action="#" method="post">
+        <div class="row checkout-body">
+          <div class="col-md-6">
+            <h3>Billing Details</h3>
+            <div class="row mt-3">
+              <div class="col-md-6 mt-2">
+                <span>First Name</span><br>
+                <input type="text" name="firstName">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Last Name</span><br>
+                <input type="text" name="lastName">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Phone</span><br>
+                <input type="text" name="phone">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Email Address</span><br>
+                <input type="text" name="email">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Country</span><br>
+                <input type="text" name="country">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>State</span><br>
+                <input type="text" name="state">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>City</span><br>
+                <input type="text" name="city">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Zip/Postal Code</span><br>
+                <input type="text" name="zip">
+              </div>
+              <div class="col-md-12 mt-2">
+                <span>Address</span><br>
+                <textarea name="address"></textarea>
+              </div>
+            </div>
+            <h3 class="mt-5">Shopping Details</h3>
+            <div class="row mt-3">
+              <div class="col-md-6 mt-2">
+                <span>First Name</span><br>
+                <input type="text" name="billingFirstName">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Last Name</span><br>
+                <input type="text" name="billingLastName">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Phone</span><br>
+                <input type="text" name="billingPhone">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Email Address</span><br>
+                <input type="text" name="billingEmail">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Billing Country</span><br>
+                <input type="text" name="billingCountry">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Billing State</span><br>
+                <input type="text" name="billingState">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Billing City</span><br>
+                <input type="text" name="billingCity">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Zip/Postal Code</span><br>
+                <input type="text" name="billingZip">
+              </div>
+              <div class="col-md-12 mt-2">
+                <span>Billing Address</span><br>
+                <textarea name="billingAddress"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col-md-5">
+            <h3>Payment Details</h3>
+            <div class="row mt-3">
+              <div class="col-md-12 mt-2">
+                <span>Select Card</span><br>
+                <select name="cardType">
+                  <option value="">--Select Card--</option>
+                  <option value="visa">Visa</option>
+                  <option value="discover">Discover</option>
+                  <option value="maestro">Maestro</option>
+                </select>
+              </div>
+              <div class="col-md-12 mt-2">
+                <span>Card Details</span><br>
+                <input type="text" name="card">
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Expiry Month</span><br>
+                <select name="expiryMonth">
+                  <option value=''>--Select Month--</option>
+                  <option value='1'>January</option>
+                  <option value='2'>February</option>
+                  <option value='3'>March</option>
+                  <option value='4'>April</option>
+                  <option value='5'>May</option>
+                  <option value='6'>June</option>
+                  <option value='7'>July</option>
+                  <option value='8'>August</option>
+                  <option value='9'>September</option>
+                  <option value='10'>October</option>
+                  <option value='11'>November</option>
+                  <option value='12'>December</option>
+                </select>
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Expiry Year</span><br>
+                <select name="expiryYear">
+                  <option value="">--Select Year--</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                  <option value="2032">2032</option>
+                  <option value="2033">2033</option>
+                  <option value="2034">2034</option>
+                  <option value="2035">2035</option>
+                </select>
+              </div>
+              <div class="col-md-6 mt-2">
+                <span>Cvv</span><br>
+                <input type="text" name="cvv">
+              </div>
+              <div class="col-md-6 mt-2 align-content-center">
+                <img src="./images/cards.png" width="160px">
+              </div>
+            </div>
+            <h3 class="mt-5">Order Summery</h3>
+            <div class="checkout-total" >
+              <div id="checkout-container">
+              <template id="checkout-summery">
+              <div class="checkout-total-prods">
+                <img src="./images/prod-1.png" id="summery-pic">
+                <span id="summery-name"></span>
+                <span>x &nbsp;</span>
+                <span id="summery-qty"> </span>
+                <span id="summery-price"></span>
+              </div>
+              </template>
+              </div>
+              <div class="checkout-total-price">
+                <div class="d-flex">
+                  <span>Subtotal</span>
+                  <span id="cart-subtotal"></span>
+                </div>
+                <div class="d-flex">
+                  <span>Shipping</span>
+                  <span>Free</span>
+                </div>
+                <div class="d-flex">
+                  <span>Total</span>
+                  <span id="cart-total"></span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="checkout-terms">
+              <input type="checkbox" name="terms">
+              <p>Yes! I am over 18 years old and I agree to the Terms & Conditions and Privacy Policy of this site. By
+                clicking the Place Order button and submitting this order, I agree that my card will be charged
+         for one-time purchase. All packages are shipped via USPS First Class Delivery and are estimated to arrive within 2-4
+                business days from the day I place the order. If this product is not right for me, or I have any
+                questions, contact customer service by calling 8773596967 or e-mailing info@morderncream.com. Charges
+                will appear on my credit card statements as Mordern Cream</p>
+            </div>
+            <button type="submit" class="main-btn">Place Order</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <hr>
+        <img src="./images/logo.png" class="footer-logo">
+        <hr>
+      </div>
+      <div class="row footer-details">
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><img src="./images/right-arrow.svg">&nbsp;<a href="index.html">Home</a></li>
+            <li><img src="./images/right-arrow.svg">&nbsp;<a href="shop.html">Shop</a></li>
+            <li><img src="./images/right-arrow.svg">&nbsp;<a href="blogs.html">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Other Links</h3>
+          <ul>
+            <li><img src="./images/right-arrow.svg">&nbsp;<a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><img src="./images/right-arrow.svg">&nbsp;<a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 ">
+          <h3>We accept</h3>
+          <img src="./images/cards.png">
+        </div>
+      </div>
+      <div class="footer-FDA">
+        <h3>FDA Disclaimer</h3>
+        <p>All trademarks and copyrights are the property of their respective owners and are not affiliated with nor do
+          they endorse Mordern Cream. These statements have not been evaluated by the FDA. This product is not intended
+          to diagnose, treat, cure or prevent any disease. Individual results will vary. By using this site you agree to
+          follow the Privacy Policy and all Terms & Conditions printed on this site. Void Where Prohibited By Law.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container d-flex align-content-center">
+        <img src="./images/copy.svg">&nbsp;
+        <p> Mordern Cream 2025 | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/checkout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
