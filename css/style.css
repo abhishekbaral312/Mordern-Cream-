@@ -839,4 +839,6 @@ body{
     .prod-quantity{
         margin: 1rem auto 2rem;
     }
+    .cart-head{
+        gap:10px;
 }
