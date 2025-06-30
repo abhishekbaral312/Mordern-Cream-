@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
   //product fetching from JSON file
-  fetch('./product-list.json')
+  fetch('product-list.json')
     .then(res => res.json())
     .then(products => {
       const list = document.getElementById('product-list');
